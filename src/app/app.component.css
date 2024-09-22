@@ -1,0 +1,84 @@
+.container_img{
+  align-items: center;
+
+
+width:45%;
+
+
+}
+.image{
+  border-radius: 400px;
+  height: 500px;
+  margin: 100px;
+  margin-top: 200px;
+  
+
+}
+.form {
+  border-radius: 20px;
+    
+    width:45%;
+    margin: 100px ;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 15px;
+  }
+  
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+
+  input[type="text"],
+  textarea,
+  input[type="range"],
+  input[type="checkbox"],input[type="date"],input[type="password"],input[type="email"]
+  input[type="toggle"],.inputsrting {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+
+  textarea {
+    height: 100px;
+  }
+  
+
+  input[type="checkbox"],
+  input[type="toggle"] {
+    width: auto;
+  }
+  
+
+  div {
+    padding: 5px 0;
+  }
+
+ 

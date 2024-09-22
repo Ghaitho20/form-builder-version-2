@@ -1,0 +1,111 @@
+ [
+      {
+        "name": "firstName",
+        "label": "First name:",
+        "value": "",
+        "type": "text",
+        "validators": {
+          "required": true,
+          "max": 10,
+          "min":0
+        }
+        
+        
+      },{
+        "name": "mot de passe ",
+        "label": "mot de passe:",
+        "value": "",
+        "type": "password",
+        "validators": {
+          "required": true,
+          "max": 10,
+          "min":0
+        }
+
+      },
+      {
+        "name": "lastName",
+        "label": "Last name:",
+        "value": "",
+        "type": "text",
+        "validators": {}
+        
+      },
+      {
+        "name": "comments",
+        "label": "Comments",
+        "value": "",
+        "type": "textarea",
+        "validators": {}
+        
+      },
+      {
+        "name": "agreeTerms",
+        "label": "This is a input radio?",
+        "value": "false",
+        "type": "radio",
+        "validators": {},
+        "attributes": {
+          "container1": {
+            "d1": {
+              "no": false,
+              "yes": true
+            }
+          },
+          "container2": {
+            "d2": {
+              "yes": {"op": {"dict" : { "name": "text" ,"works": "text"}}}
+            }
+          }
+        }
+      }
+      ,
+      {
+        "name": "size",
+        "label": "niveau",
+        "value": "",
+        "type": "range",
+        "options": {
+          "min": "0",
+          "max": "100",
+          "step": "1",
+          "icon": "sunny"
+        }
+      
+      },
+      {
+        "name": "number of rooms",
+        "label": "number of rooms",
+        "value": "",
+        "type": "number",
+        "add":true,
+        "validators": {},
+      
+        "added":{ "dict":
+        {"name":"text","age":"number"}
+        }
+
+      },
+      {
+        "name": "button",
+        "label": "button",
+        "value": "",
+        "type": "button",
+        "validators": {},
+        "attributes": {
+          "container1": {
+            "d1": {
+              "submit": false,
+              "clear": false
+            }
+          },
+          "container2": {
+            "d2": {
+            }
+          }
+        }
+      }
+
+
+
+    ] 
